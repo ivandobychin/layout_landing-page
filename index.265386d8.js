@@ -1,0 +1,2 @@
+var e=document.querySelectorAll(".trigger-nav--js"),n=document.querySelector(".header__opennav-nav"),t=document.querySelectorAll(".header__opennav-nav-link");e.forEach(function(e){e.addEventListener("click",function(e){e.preventDefault(),n.classList.toggle("header__opennav-nav--active"),document.body.classList.toggle("scroll-hidden")})}),t.forEach(function(e){e.addEventListener("click",function(){n.classList.remove("header__opennav-nav--active"),document.body.classList.remove("scroll-hidden")})});
+//# sourceMappingURL=index.265386d8.js.map
